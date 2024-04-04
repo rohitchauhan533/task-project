@@ -1,6 +1,6 @@
 import { createStore } from 'redux';
-import ListReducer from "../redux/reducers/ListReducer"
+import accordionReducer from './reducers/accordionReducer';
 
-const store = createStore(ListReducer);
+const store = createStore(accordionReducer);
 
 export default store;

@@ -1,6 +1,5 @@
-// accordionReducer.js
 import { EDIT_ACCORDION_ITEM, DELETE_ACCORDION_ITEM } from '../actions/actionTypes';
-import { listData } from '../data';
+import { listData } from '../../data';
 
 const initialState = {
   accordionItems: listData,
