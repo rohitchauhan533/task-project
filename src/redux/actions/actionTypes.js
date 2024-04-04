@@ -1,0 +1,3 @@
+// actionTypes.js
+export const EDIT_ACCORDION_ITEM = 'EDIT_ACCORDION_ITEM';
+export const DELETE_ACCORDION_ITEM = 'DELETE_ACCORDION_ITEM';
