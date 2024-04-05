@@ -18,7 +18,7 @@ const AccordionList = () => {
   return (
     <div>
       {accordionItems.map(item => (
-        <AccordionItem selectedUser={selectedUser}  handleSelectUser={handleSelectUser} key={item.id} item={item} />
+        <AccordionItem selectedUser={selectedUser} editMode = {editMode} setEditMode={setEditMode} handleSelectUser={handleSelectUser} key={item.id} item={item} />
       ))}
     </div>
   );
